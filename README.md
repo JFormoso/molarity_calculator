@@ -50,7 +50,5 @@ MIT License. Feel free to use and adapt this project.
 ## 🙋‍♀️ Acknowledgments
 This app uses open data provided by PubChem via the `webchem` package, maintained by [ropensci](https://ropensci.org/).
 
-yaml
-Copiar
-Editar
+
 
