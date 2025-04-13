@@ -1,0 +1,10 @@
+name: molarity_calculator
+title: molarity_calculator
+username: jformoso
+account: jformoso
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 14512160
+bundleId: 10108454
+url: https://jformoso.shinyapps.io/molarity_calculator/
+version: 1

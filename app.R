@@ -1,21 +1,9 @@
-library(shiny)
 library(webchem)
+library(shiny)
 library(shinythemes)
 
 ui <- fluidPage(
   theme = shinytheme("cerulean"),
-  
-  tags$style(HTML("
-  #result pre {
-    color: #00ffcc;
-    background-color: #222;
-    border: 1px solid #00ffcc;
-    border-radius: 5px;
-    padding: 10px;
-    font-weight: bold;
-    font-size: 1.2em;
-  }
-")),
   
   titlePanel("Chemical Calculator"),
   
