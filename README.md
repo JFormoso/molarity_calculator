@@ -27,6 +27,7 @@ Users can select from three calculation modes:
 - **R** and **Shiny**
 - [`webchem`](https://docs.ropensci.org/webchem/) for retrieving molecular weight from PubChem
 - [`shinythemes`](https://rstudio.github.io/shinythemes/) for styling
+- [`renv`](https://docs.posit.co/ide/user/ide/guide/environments/r/renv.html) for project-specific package management and reproducibility
 
 ## 📦 How to use
 
