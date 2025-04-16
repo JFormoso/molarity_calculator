@@ -1,0 +1,12 @@
+name: solutions_calculator
+title: solutions_calculator
+username: jformoso
+account: jformoso
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 14534199
+bundleId: 10122283
+url: https://jformoso.shinyapps.io/solutions_calculator/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE

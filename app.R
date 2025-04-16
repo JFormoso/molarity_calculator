@@ -27,6 +27,8 @@ ui <- fluidPage(
 
 server <- function(input, output, session) {
   
+  options(scipen = 999)
+  
   # Obtener peso molecular desde PubChem
   mol_weight <- eventReactive(input$search, {
     tryCatch({
@@ -104,19 +106,19 @@ server <- function(input, output, session) {
       c <- input$concentration * conc_factor
       v <- input$volume * vol_factor
       mass <- c * v * mw
-      return(paste("Mass =", round(mass, 5), "g"))
+      return(paste("Mass =", signif(mass, 5), "g"))
       
     } else if (mode == "volume") {
       c <- input$concentration * conc_factor
       if (c == 0) return("Concentration must be greater than zero.")
       vol_L <- input$mass / (c * mw)
-      return(paste("Volume =", round(vol_L * 1e3, 2), "mL"))  # muestra en mL
+      return(paste("Volume =", signif(vol_L * 1e3, 5), "mL"))  # muestra en mL
       
     } else if (mode == "molarity") {
       v <- input$volume * vol_factor
       if (v == 0) return("Volume must be greater than zero.")
       molarity <- input$mass / (v * mw)
-      return(paste("Molarity =", round(molarity, 2), "mol/L"))
+      return(paste("Molarity =", signif(molarity, 5), "mol/L"))
     }
   })
 }
