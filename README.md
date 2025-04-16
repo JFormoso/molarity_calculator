@@ -46,10 +46,15 @@ Output:
 - Mass = 0.18016 g (based on glucose molecular weight ≈ 180.16 g/mol)
 
 ## 📄 License
-MIT License. Feel free to use and adapt this project.
+MIT License. Feel free to use, modify, or distribute this project.
+
+## ✍️ Citation
+Jesica Formoso, & karina formoso. (2025). JFormoso/solutions_calculator: v1.0.1 (v1.0.1). Zenodo. [https://doi.org/10.5281/zenodo.15226728](https://zenodo.org/records/15226728)
 
 ## 🙋‍♀️ Acknowledgments
 This app uses open data provided by PubChem via the `webchem` package, maintained by [ropensci](https://ropensci.org/).
+
+Szöcs E, Stirling T, Scott ER, Scharmüller A, Schäfer RB (2020). “webchem: An R Package to Retrieve Chemical Information from the Web.” Journal of Statistical Software, 93(13), 1–17. doi:10.18637/jss.v093.i13.
 
 
 
