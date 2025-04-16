@@ -1,4 +1,4 @@
-# 🧪 Solutions Calculator Shiny App
+# 🧪 Solutions Calculator
 
 This Shiny app allows you to perform basic chemical calculations based on **molarity, mass, volume**, and **molecular weight**. It retrieves molecular weights from PubChem using the [`webchem`](https://github.com/ropensci/webchem) package.
 
