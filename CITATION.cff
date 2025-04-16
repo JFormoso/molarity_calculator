@@ -1,0 +1,23 @@
+cff-version: 1.1.0
+message: "If you use this application, please cite it as below."
+title: "Solutions Calculator"
+version: "1.0.1"
+doi: 10.5281/zenodo.15226728
+date-released: 2025-04-15
+authors:
+  - family-names: Formoso
+    given-names: Jesica
+    orcid: https://orcid.org/0000-0003-3062-4036
+    affiliation: CIIPME-CONICET, Argentina
+  - family-names: Formoso
+    given-names: Karina
+    orcid: https://orcid.org/0000-0003-4890-8547
+    affiliation: Instituto de Investigaciones Biomédicas-CONICET, Argentina
+repository-code: https://github.com/JFormoso/solutions_calculator
+license: MIT
+keywords:
+  - Shiny
+  - molecular weight
+  - solutions calculator
+  - webchem
+abstract: "An interactive Shiny application to calculate mass based on concentration and volume using molecular weight retrieved from PubChem via the webchem R package."
