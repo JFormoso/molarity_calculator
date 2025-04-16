@@ -17,7 +17,7 @@ ui <- fluidPage(
   }
 ")),
   
-  titlePanel("Chemical Calculator"),
+  titlePanel("Solutions Calculator"),
   
   sidebarLayout(
     sidebarPanel(
