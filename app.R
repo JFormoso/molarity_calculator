@@ -57,32 +57,32 @@ server <- function(input, output, session) {
            
            "mass" = tagList(
              fluidRow(
-               column(6, numericInput("concentration", "Concentration:", value = 1, min = 0)),
+               column(6, numericInput("concentration", "Concentration", value = 1, min = 0)),
                column(6, selectInput("concentration_unit", "Unit", 
-                                     choices = c("nM" = "nM", "µM" = "uM", "mM" = "mM", "M" = "M")))
+                                     choices = c("nM (nanomolar)" = "nM", "µM (micromolar)" = "uM", "mM (millimolar)" = "mM", "M (molar)" = "M")))
              ),
              fluidRow(
-               column(6, numericInput("volume", "Volume:", value = 1, min = 0)),
+               column(6, numericInput("volume", "Volume", value = 1, min = 0)),
                column(6, selectInput("volume_unit", "Unit", 
-                                     choices = c("µL" = "uL", "mL" = "mL", "L" = "L")))
+                                     choices = c("µL (microliter)" = "uL", "mL (milliliter)" = "mL", "L (liter)" = "L")))
              )
            ),
            
            "volume" = tagList(
-             numericInput("mass", "Mass (g):", value = 1, min = 0),
+             numericInput("mass", "Mass (g)", value = 1, min = 0),
              fluidRow(
-               column(6, numericInput("concentration", "Concentration:", value = 1, min = 0)),
+               column(6, numericInput("concentration", "Concentration", value = 1, min = 0)),
                column(6, selectInput("concentration_unit", "Unit", 
-                                     choices = c("nM" = "nM", "µM" = "uM", "mM" = "mM", "M" = "M")))
+                                     choices = c("nM (nanomolar)" = "nM", "µM (micromolar)" = "uM", "mM (millimolar)" = "mM", "M (molar)" = "M")))
              )
            ),
            
            "molarity" = tagList(
-             numericInput("mass", "Mass (g):", value = 1, min = 0),
+             numericInput("mass", "Mass (g)", value = 1, min = 0),
              fluidRow(
-               column(6, numericInput("volume", "Volume:", value = 1, min = 0)),
+               column(6, numericInput("volume", "Volume", value = 1, min = 0)),
                column(6, selectInput("volume_unit", "Unit", 
-                                     choices = c("µL" = "uL", "mL" = "mL", "L" = "L")))
+                                     choices = c("µL (microliter)" = "uL", "mL (milliliter)" = "mL", "L (liter)" = "L")))
              )
            )
     )
